@@ -25,7 +25,7 @@ social:
     link: https://github.com/csyfcheng
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/cyfine/
+    link: https://www.linkedin.com/in/cyfine
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
