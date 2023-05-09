@@ -1,7 +1,7 @@
 ---
 title: Yifeng Cheng, Carter (程逸風)
 role: Undergraduate Student
-avatar_filename: avatar.jpeg
+avatar_filename: avatar.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
