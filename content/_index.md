@@ -125,60 +125,53 @@ sections:
       subtitle:
       date_format: Jan 2006
       items:
-        - 
-          date_end: ''
+        - date_end: ''
           date_start: '2023-04-25'
           description: ''
           organization: Education Bureau, HKSAR
           organization_url: https://www.coursera.org
           title: Hong Kong Government Scholarship
           url: ''
-        -
-          date_end: ''
+        - date_end: ''
           date_start: '2022-09-25'
           description: ''
           organization: Mr. Wang Lu Yen
           title: Mr. Wang Lu Yen Student Exchange Scholarship
           url: ''
-          
-        -
-          date_end: ''
+
+        - date_end: ''
           date_start: '2022-09-25'
           description: ''
           organization: Department of Computer Science, HKBU
           title: Concentration Award
           url: ''
-        -
-          date_end: ''
+        - date_end: ''
           date_start: '2022-07-25'
           description: ''
           organization: Dr. Vincent Woo 胡永輝博士，BBS，MBE
           title: Vincent Woo Scholarship Scheme for Outstanding Mainland Students
           url: ''
-        -
-          date_end: ''
+        - date_end: ''
           date_start: '2022-07-25'
           description: ''
           organization: Department of Computer Science, HKBU
           title: Outstanding Student Scholarship
           url: ''
-        -
-          date_end: ''
+        - date_end: ''
           date_start: '2021-10-25'
           description: ''
           organization: Department of Computer Science, HKBU
           title: Outstanding Student Scholarship (Semester 1)
           url: ''
-        -
-          date_end: ''
+        - date_end: ''
           date_start: '2021-10-25'
           description: ''
           organization: Department of Computer Science, HKBU
           title: Outstanding Student Scholarship (Semester 2)
           url: ''
-          
 
-  
+
+
 
   - block: accomplishments
     content:
@@ -201,51 +194,51 @@ sections:
           organization_url: https://www.coursera.org
           title: Machine Learning Specialization
           url: ''
-  #        - certificate_url: https://www.edx.org
-  #          date_end: ''
-  #          date_start: '2021-01-01'
-  #          description: Formulated informed blockchain models, hypotheses, and use cases.
-  #          organization: edX
-  #          organization_url: https://www.edx.org
-  #          title: Blockchain Fundamentals
-  #          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  #        - certificate_url: https://www.datacamp.com
-  #          date_end: '2020-12-21'
-  #          date_start: '2020-07-01'
-  #          description: ''
-  #          organization: DataCamp
-  #          organization_url: https://www.datacamp.com
-  #          title: 'Object-Oriented Programming in R'
-  #          url: ''
+    #        - certificate_url: https://www.edx.org
+    #          date_end: ''
+    #          date_start: '2021-01-01'
+    #          description: Formulated informed blockchain models, hypotheses, and use cases.
+    #          organization: edX
+    #          organization_url: https://www.edx.org
+    #          title: Blockchain Fundamentals
+    #          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    #        - certificate_url: https://www.datacamp.com
+    #          date_end: '2020-12-21'
+    #          date_start: '2020-07-01'
+    #          description: ''
+    #          organization: DataCamp
+    #          organization_url: https://www.datacamp.com
+    #          title: 'Object-Oriented Programming in R'
+    #          url: ''
     design:
       columns: '2'
-#  - block: collection
-#    id: posts
-#    content:
-#      title: Recent Posts
-#      subtitle: ''
-#      text: ''
-#      # Choose how many pages you would like to display (0 = all pages)
-#      count: 5
-#      # Filter on criteria
-#      filters:
-#        folders:
-#          - post
-#        author: ""
-#        category: ""
-#        tag: ""
-#        exclude_featured: false
-#        exclude_future: false
-#        exclude_past: false
-#        publication_type: ""
-#      # Choose how many pages you would like to offset by
-#      offset: 0
-#      # Page order: descending (desc) or ascending (asc) date.
-#      order: desc
-#    design:
-#      # Choose a layout view
-#      view: compact
-#      columns: '2'
+  #  - block: collection
+  #    id: posts
+  #    content:
+  #      title: Recent Posts
+  #      subtitle: ''
+  #      text: ''
+  #      # Choose how many pages you would like to display (0 = all pages)
+  #      count: 5
+  #      # Filter on criteria
+  #      filters:
+  #        folders:
+  #          - post
+  #        author: ""
+  #        category: ""
+  #        tag: ""
+  #        exclude_featured: false
+  #        exclude_future: false
+  #        exclude_past: false
+  #        publication_type: ""
+  #      # Choose how many pages you would like to offset by
+  #      offset: 0
+  #      # Page order: descending (desc) or ascending (asc) date.
+  #      order: desc
+  #    design:
+  #      # Choose a layout view
+  #      view: compact
+  #      columns: '2'
   #  - block: portfolio
   #    id: projects
   #    content:
@@ -273,25 +266,25 @@ sections:
   #      view: showcase
   #      # For Showcase view, flip alternate rows?
   #      flip_alt_rows: false
-#  - block: markdown
-#    content:
-#      title: Gallery
-#      subtitle: ''
-#      text: |-
-#        {{< gallery album="demo" >}}
-#    design:
-#      columns: '1'
-#  - block: collection
-#    id: featured
-#    content:
-#      title: Featured Publications
-#      filters:
-#        folders:
-#          - publication
-#        featured_only: true
-#    design:
-#      columns: '2'
-#      view: card
+  #  - block: markdown
+  #    content:
+  #      title: Gallery
+  #      subtitle: ''
+  #      text: |-
+  #        {{< gallery album="demo" >}}
+  #    design:
+  #      columns: '1'
+  #  - block: collection
+  #    id: featured
+  #    content:
+  #      title: Featured Publications
+  #      filters:
+  #        folders:
+  #          - publication
+  #        featured_only: true
+  #    design:
+  #      columns: '2'
+  #      view: card
   #  - block: collection
   #    content:
   #      title: Recent Publications
@@ -330,7 +323,7 @@ sections:
       #        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: csyfcheng@gmail.com
-      #      phone: +852 68543020
+      phone: +852 68543020
       #      appointment_url: 'https://calendly.com'
       #      address:
       #        street: 450 Serra Mall
