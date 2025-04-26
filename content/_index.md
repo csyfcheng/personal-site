@@ -41,22 +41,34 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  #  - block: features
-  #    content:
-  #      title: Skills
-  #      items:
-  #        - name: Python
-  #          description: PyTorch, Tensorflow
-  #          icon: python
-  #          icon_pack: fab
-  #        - name: Java
-  #          description: Object Oriented Programming with Java
-  #          icon: java
-  #          icon_pack: fab
-  #        - name: Academic Writing
-  #          description: Solid Experience In Academic Writing
-  #          icon: pen-nib
-  #          icon_pack: fas
+  - block: features
+    content:
+      title: Skills
+      items:
+        - name: Python
+          description: PyTorch, TensorFlow
+          icon: python
+          icon_pack: fab
+        - name: Java & C++
+          description: OOP, Data Structures
+          icon: code
+          icon_pack: fas
+        - name: Deep Learning
+          description: Computer Vision, 3D Point Clouds
+          icon: brain
+          icon_pack: fas
+        - name: Tools
+          description: Git, Docker, Linux, LaTeX
+          icon: tools
+          icon_pack: fas
+        - name: Languages
+          description: English (IELTS 8.0), Mandarin (Native)
+          icon: language
+          icon_pack: fas
+        - name: Research
+          description: Paper writing, Literature review
+          icon: chart-line
+          icon_pack: fas
   - block: experience
     content:
       title: Education
@@ -99,6 +111,43 @@ sections:
       date_format: Jan 2006
       items:
         - title: Research Assistant
+          company: Hong Kong University of Science and Technology (Guangzhou)
+          company_url: 'https://hkust-gz.edu.cn/'
+          company_logo: 
+          location: Guangzhou, China
+          date_start: '2024-04-01'
+          date_end: ''
+          description: |2-
+              * Conducting research on 3D anomaly detection with CLIP and few-shot learning
+              * Developing a novel framework that aligns 3D point cloud features with CLIP's vision-text embeddings
+              * Implementing data augmentation techniques for 3D point clouds to enable few-shot training
+              * Improving performance on MV-Tec 3D-AD dataset in both zero-shot and few-shot settings
+        - title: Assistant Engineer
+          company: Shenzhen Junming AI Technology Co., Ltd
+          company_url: ''
+          company_logo: 
+          location: Shenzhen, China
+          date_start: '2023-07-01'
+          date_end: '2024-03-01'
+          description: |2-
+              * Assisted in implementing and fine-tuning YOLOv5 for real-time detection of ripe oil palm fruits
+              * Supported data collection, annotation, and model training processes
+              * Helped optimize and deploy models on NVIDIA Jetson Xavier NX for edge inference
+              * Maintained technical documentation for team collaboration
+        - title: Research Assistant
+          company: Hong Kong Baptist University
+          company_url: ''
+          company_logo: hkbu
+          location: Hong Kong, China
+          date_start: '2022-06-01'
+          date_end: '2022-08-01'
+          description: |2-
+              * Conducted research on improving neural network robustness against adversarial attacks
+              * Developed pruning methods to identify robust and non-robust subnetworks
+              * Implemented Learning without Forgetting (LwF) regularization on adversarially trained models
+              * Increased top-1 natural accuracy by 46.38% while identifying trade-offs with robust accuracy
+              * Developed a novel Dense-Pretrain-Allocate (DPA) framework to optimize accuracy-robustness balance
+        - title: Research Assistant
           company: Hong Kong Baptist University
           company_url: ''
           company_logo: hkbu
@@ -106,19 +155,13 @@ sections:
           date_start: '2021-06-01'
           date_end: '2021-08-01'
           description: |2-
-              * Working on medical image processing
-              * Develop approaches detect CT image with anomaly CT-window in the dataset
-        - title: Research Assistant
-          company: Hong Kong Baptist University
-          company_logo: hkbu
-          location: Hong Kong, China
-          date_start: '2022-06-01'
-          date_end: '2022-08-01'
-          description: |2-
-              * Working on adversarial sample problems in neural networks
-              * Explores interesting phenomena that when using loss function as optimization target
-            of neural network pruning on non-adversarial robustness network, we obtain adversarial robust network.
-            Revealing existence of robust subnetwork in a non adversarial robust network.
+              * Worked on inconsistent CT window detection in CT image volumes
+              * Developed statistical methods to identify anomalous images in CT datasets
+              * Created software tools for automatic detection of inconsistent windows
+              * Leveraged multithreading to accelerate analysis of large datasets
+
+    design:
+      columns: '2'
   - block: accomplishments
     content:
       title: 'Awards'
@@ -129,7 +172,6 @@ sections:
           date_start: '2023-04-25'
           description: ''
           organization: Education Bureau, HKSAR
-          organization_url: https://www.coursera.org
           title: Hong Kong Government Scholarship
           url: ''
         - date_end: ''
@@ -189,19 +231,25 @@ sections:
         - certificate_url: https://coursera.org/share/19995a6c51a0ed3c1a14aa28be5f5ec0
           date_end: ''
           date_start: '2023-10-25'
-          description: ''
+          description: 'Includes Supervised Machine Learning, Advanced Learning Algorithms, Unsupervised Learning, Recommenders, and Reinforcement Learning'
           organization: Coursera
           organization_url: https://www.coursera.org
           title: Machine Learning Specialization
+          url: ''
+        - certificate_url: 
+          date_end: ''
+          date_start: '2023-09-15'
+          description: 'Advanced mental tools to master tough subjects'
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Learning How to Learn
           url: ''
         - certificate_url: uploads/IELTS_Test_Result_Form.jpeg
           date_end: ''
           date_start: '2023-11-01'
           description: L:8.5, R:8.5, W:7.0, S:8.5, Overall:8.0
           organization: IELTS
-          organization_url: https://www.edx.org
           title: IELTS Band 8
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     #        - certificate_url: https://www.datacamp.com
     #          date_end: '2020-12-21'
     #          date_start: '2020-07-01'
